@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.container {
+    flex: 1;
+}
+
+.header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    width: 100%;
+}
